@@ -1,0 +1,45 @@
+.card-widget.card-info .is-center .avatar-img img {
+    width: 105px;
+    height: 105px;
+    display: block;
+    border: 0px solid #f7f9fe;
+    border-radius: 70%;
+  }
+  
+  .card-widget.card-info .is-center .author-status {
+    position: absolute;
+    left: calc(65% - 28px);
+    width: 28px;
+    height: 28px;
+    border: 1px solid #d0d7de;
+    border-radius: 2em;
+    background-color: #fff;
+    transition: .3s;
+  }
+  
+  .card-widget.card-info .is-center .author-status .author-status-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    padding: 0 5px;
+  }
+  
+  .card-widget.card-info .is-center .author-status:hover {
+    width: 105px;
+  }
+  
+  .card-widget.card-info .is-center .author-status:hover .author-status-span span {
+    width: 105px;
+    margin-left: 4px;
+  }
+  
+  .card-widget.card-info .is-center .author-status .author-status-span span {
+    width: 0;
+    font-size: 12px;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: .3s;
+  }
