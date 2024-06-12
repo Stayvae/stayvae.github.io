@@ -20653,6 +20653,7 @@ html.hide-aside .layout > div:first-child {
   display: flex;
   white-space: nowrap;
   overflow-x: scroll;
+  scrollbar-width: none;
 }
 
 #catalog-list::-webkit-scrollbar {
