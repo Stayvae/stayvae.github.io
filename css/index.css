@@ -10047,6 +10047,7 @@ h1.page-title + .tag-cloud-list {
   padding: 1rem 1.2rem;
   min-height: 320px;
   position: relative;
+  background: url("https://bu.dusays.com/2024/06/16/666eac9c81bb5.jpg") top/cover no-repeat;
 }
 #aside-content >.card-widget.card-info::before {
   background: -webkit-linear-gradient(115deg, var(--anzhiyu-main), var(--anzhiyu-main-op-deep), var(--anzhiyu-main), var(--anzhiyu-main-op-deep));
@@ -20395,7 +20396,9 @@ svg.icon {
   background-color: transparent !important;
 } */
 #page-header {
-  background: url("https://bu.dusays.com/2024/03/13/65f1609f8f51a.jpg");
+  background: url("https://bu.dusays.com/2024/06/16/666e90c19b658.jpg") top / cover no-repeat;
+  
+  
 }
 /* 文章页面正文背景 */
 div#post {
@@ -23020,6 +23023,9 @@ svg.icon.faa-tada {
     padding: 20px 15px 20px;
   }
 }
+
+
+
 
 .card-glass .card-background {
   box-shadow: none;
