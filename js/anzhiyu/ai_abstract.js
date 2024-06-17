@@ -360,7 +360,7 @@
 
   function introduce() {
     if (mode == "tianli") {
-      startAI("我是文章辅助AI: TianliGPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。");
+      startAI("我是文章辅助AI: Stay GPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。");
     } else {
       startAI(`我是文章辅助AI: ${gptName} GPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。`);
     }
@@ -430,7 +430,7 @@
 
   function showAiBtn() {
     if (mode === "tianli") {
-      document.getElementById("ai-tag").innerHTML = "TianliGPT";
+      document.getElementById("ai-tag").innerHTML = "Stay GPT";
     } else {
       document.getElementById("ai-tag").innerHTML = gptName + " GPT";
     }
