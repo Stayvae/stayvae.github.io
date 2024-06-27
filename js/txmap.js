@@ -225,11 +225,7 @@ function welcometxmap() {
     else if (date.getHours() >= 17 && date.getHours() < 19) timeChange = "<span class='welcome-time'>🚶‍♂️ 即将下班，记得按时吃饭~</span>";
     else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span class='welcome-time'>🌙 晚上好，夜生活嗨起来！</span>";
     else timeChange = "<span class='welcome-time'>夜深了，早点休息，少熬夜</span>";
-    // 新增ipv6显示为指定内容
-    if (ip.includes(":")) {
-        ip = "<br>好复杂，看不懂~(ipv6)";
-    }
-
+    
     try {
         //自定义文本和需要放的位置
         document.getElementById("welcome-info").innerHTML =
